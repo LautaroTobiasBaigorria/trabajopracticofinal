@@ -4,28 +4,43 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Portfolio</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/normalize.css">
 </head>
 <body>
-
-    <header>
-        <h2>Hidev</h2>
+    <header class="header">
+        <img src="image/background-image.png" alt=""> 
+        <div class="back">
+            <a href="#" class="logo">Logo</a>
+        </div>
         <nav>
-            <a href="">Home</a>
-            <a href="">About</a>
-            <a href="">Skills</a>
-            <a href="">Projects</a>
-            <a href="" class="hero-button">Hire me</a>
+            <ul class="nav-links">
+                <li><a href="#">Inicio</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Skills</a></li>
+                <li><a href="#">Projects</a></li>
+            </ul>
         </nav>
+        <div class="contacto">
+            <i class="bi bi-envelope mensaje"></i>
+            <a href="#" class="btn">Contacto</a>
+        </div>
+    </header>
 
     <main>
-        <section>
-            <h3>Hola,</h3>
-            <h1>Soy un <br> desarrollador web</h1>
-            <p>Construyo cosas para web</p>
-            <img src="image/github.svg" alt="">
-            <img src="image/github.svg" alt="">
-            <img src="image/github.svg" alt="">
-            <img src="image/github.svg" alt="">
+        <section class="about">
+            <!-- <img src="image/background-image.png" alt=""> -->
+            <div class="cont-text"> 
+                 <h3>Hola,</h3>
+                 <h1>Soy un <br> desarrollador web</h1>
+                 <p>Construyo cosas para web</p>
+                 <div class="redes"> 
+                    <i class="bi bi-github miestilo"></i>
+                    <i class="bi bi-twitter"></i>
+                    <i class="bi bi-linkedin"></i>
+                    <i class="bi bi-instagram"></i>
+                </div>
+            </div> 
         </section>
 
         <section>
