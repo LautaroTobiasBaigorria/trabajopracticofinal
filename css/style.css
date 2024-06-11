@@ -9,19 +9,18 @@
     text-decoration: none;
     list-style: none;
     font-size: 17px;
+    font-family:"Poppins";
+
 }
 
-.about{
-    background-image:linear-gradient(120deg,rgba(51, 28, 82, 1)50%,rgba(41, 28, 58, 1)60%,rgba(41, 28, 58, 1)30%);
-    padding-bottom: 55px;
-}
+/* HEADER */
 
 .header{
     /* background: linear-gradient(
         130deg,
         rgba(129, 33, 208, 1)30%,
         rgba(51, 28, 82, 1)90%); */
-        background-image:linear-gradient(120deg,rgba(129, 33, 202, 1)30%,rgba(41, 28, 58, 1)80%,rgba(41, 28, 58, 1)50%);
+    background-image:linear-gradient(120deg,rgba(129, 33, 202, 1)30%,rgba(41, 28, 58, 1)80%,rgba(41, 28, 58, 1)50%);
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -68,6 +67,7 @@
     border-radius: 5px;
     cursor: pointer;
     transition: all 0.3s ease 0s;
+    
 }
 
 .header .contacto:hover{
@@ -79,7 +79,11 @@
 
 .header .contacto .btn{
     font-size: 15px;
- 
+}
+
+.header .contacto a{
+    font-family:"Poppins";
+
 }
 
 .mensaje{
@@ -88,11 +92,6 @@
     margin-right: 8px;
 }
 
-.about img{
-    height: 364px;
-    float: right;
-    position: relative;
-}
 
 .header img{
     height: 430px;
@@ -101,14 +100,18 @@
     top: 5px;
 }
 
+/* SECTION DE PRESENTACION */
+
+.about{
+    background-image:linear-gradient(120deg,rgba(51, 28, 82, 1)50%,rgba(41, 28, 58, 1)60%,rgba(41, 28, 58, 1)30%);
+    padding-bottom: 55px;
+}
 
 .cont-text{
     padding-top: 70px;
     padding-left: 70px;
     color: #FFFFFF;
     font-size: 30px;
-    
-    
 }
 
 .cont-text h3{
@@ -139,5 +142,150 @@
     margin-right: 13px; 
 }
 
+/*SECTION EXPERIENCIA */
+
+.experiencia{
+    background-color: #291C3A;
+padding: 8px 0 8px 0;
+}
+
+.contenedor{
+    display: flex;
+    color: #FFFFFF;
+    font-family: "Poppins";
+    text-transform: uppercase;
+    justify-content:space-around;
+    padding-top:5px;
+    padding-bottom: 5px;
+}
+
+.contenedor div{
+    align-items:center;
+    margin-left: 70px;
+}
+.anios-exp{
+    display: flex;
+    /* justify-content:center; */
+    /* flex-grow: 1; */
+    flex-grow: 1;
+}
+
+.anios-exp h2{
+    font-size: 45px;
+    margin-right: 5px;
+}
+
+.trabajos-comp{
+    display: flex;
+    /* justify-content:center; */
+    /* flex-grow: 1; */
+    flex-grow: 1;
+}
+
+.trabajos-comp h2{
+    font-size: 45px;
+    margin-right: 5px;
+
+}
+
+.image{
+    align-items: center;
+    flex-grow: 2;
+}
+
+.image img{
+    display:inline;
+    /* align-items: center; */
+    height: 45px;
+    margin-right: 20px;
+    /* flex-grow: 10 */
+}
+
+/*SECTION ABOUT ME*/
+
+section{
+    background-color: #E1EBED;
+}
+
+.about-me{
+    display: flex;
+    padding: 50px 80px 50px 80px;
+    flex-direction: column;
+    /* flex-flow:row wrap; */
+    /* justify-content:space-between; */
+}
+
+.me{
+    width: 470px;
+    
+
+}
+
+.me h2{
+    color: #331C52;
+    font-size: 30px;
+    margin-bottom: 15px;
+} 
+
+.me p{
+    color: #331C52;
+    line-height: 25px;
+}
+
+.habilidades{
+    width: 470px;
+    margin-left: 697px;
+    margin-top: 10vh;
+}
+
+
+.habilidades h2{
+    color: #331C52;
+    font-size: 30px;
+    margin-bottom: 15px;
+}
+
+.habilidades p{
+    color: #331C52;
+}
+
+.habilidades img{
+    height: 50px;
+    padding: 5px;
+    background-color: #331C52;
+    border-radius: 5px;
+    margin-right: 20px;
+    margin-top: 15px;
+}
+
+/* SECTION MIS PROYECTOS */
+
+.contenedor-proyectos{
+    padding: 50px 80px 50px 80px;
+}
+
+.contenedor-proyectos h2{
+    font-size: 30px;
+    color: #331C52;
+    margin-bottom: 15px;
+}
+
+.contenedor-proyectos p{
+    margin-bottom: 15px;
+}
+
+.image-proyectos{
+    display: flex;
+}
+
+.image-proyectos div{
+    width: 125px;
+    margin-right: 100px;
+    background-color: #8e72b5;
+}
+
+.image-proyectos div img{
+    height: 120px;
+}
 
 
