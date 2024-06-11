@@ -1,6 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Danfo&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Source+Sans+3:ital,wght@0,200..900;1,200..900&display=swap');
 @import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css");
 @import url('https://fonts.googleapis.com/css2?family=Alfa+Slab+One&family=Lalezar&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Yellowtail&display=swap');
 
 *{
     box-sizing: border-box;
@@ -13,6 +14,9 @@
 
 }
 
+main{
+    background-color: #E1EBED;
+}
 /* HEADER */
 
 .header{
@@ -31,6 +35,9 @@
 
 .header .logo{
     cursor: pointer;
+    font-family: "Yellowtail";
+    color: #FFFFFF;
+    font-size: 35px;
 }
 
 .header .nav-links{
@@ -345,7 +352,7 @@ section{
 .container-contacto{
     display: flex;
     padding: 50px 80px 50px 80px;
-    margin: 0px 10px 10px 10px;
+    margin: 0px 10px 0px 10px;
     background-color: #DCCFED;
     justify-content: space-between;
     /* border: 1px solid black; */
@@ -413,7 +420,7 @@ section{
 
 .formulario .formulario-hijo{
     text-align: center;
-    padding: 0px 0px;
+    /* padding: 0px 0px; */
     display: flex;
     flex-direction: column;
 }
@@ -425,7 +432,6 @@ section{
     margin-bottom: 15px;
     border: 1px solid gray;
 }
-
 
 .formulario .formulario-hijo button{
     padding: 10px 180px 10px 180px;
@@ -445,7 +451,6 @@ section{
 
 .formulario .formulario-hijo button i{
     margin-right: 10px;
-
 }
 
 .estilo{
@@ -455,9 +460,51 @@ section{
 }
 
 /* SECTION FOOTER */
-
 footer{
     background-color: #331C52;
+    padding: 10px 0 30px 0;
 }
+
+
+.footer3{
+    display: flex;
+    justify-content: center;
+    color: #FFFFFF;
+}
+
+.footer1 i{
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin: 10px;
+    font-size: 25px;
+    padding: auto;
+    
+}
+
+.footer1 .footer2{
+    display: flex;
+    color: #FFFFFF;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+}
+
+.footer1 .footer2 h1{
+    font-family: "Yellowtail";
+}
+
+.footer1 p{
+    margin-bottom: 20px;
+}
+
+.footer1{
+    justify-content: center;
+    align-items: center;
+    color: #FFFFFF;
+    text-align: center;
+}
+
+
 
 
