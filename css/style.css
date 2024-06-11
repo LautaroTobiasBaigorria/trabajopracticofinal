@@ -42,44 +42,59 @@
     padding: 0 20px;
 }
 
-.header .nav-links li:hover{
-    transform:  scale(1.1);
-}
 
 .header .nav-links a{
     font-size: 15px;
     color: #FFFFFF;
     text-decoration: none;
+    padding: 5px 15px;
+    border-radius: 5px;
+    transition: all 0.5s ease 0s;
+
 }
 
 .header .nav-links li a:hover{
+    color: #331C52;
+    background-color: #FFFFFF;
+    transform:  scale(1.1);
+}
+
+.header .contacto a{
+    /* color: #FFFFFF; */
+    font-size: 15px;
+}
+
+.header .contacto .btn{
+    font-size: 15px;
     color: #FFFFFF;
 }
 
-.header .contacto{
+.header .contacto {
     display: flex;
     margin-right: 300px;
-    background-color: #FFFFFF;
+    /* background-color: #FFFFFF; */
     font-weight: 300;
-    color: #331C52;
     padding: 5px 15px;
     border: none;
     border-radius: 5px;
     cursor: pointer;
     transition: all 0.3s ease 0s;
+    color: #FFFFFF;
     
 }
 
 .header .contacto:hover{
     background-color: #FFFFFF;
-    color: #331C52;
-    transform: scale(1.1);
-    border: none;
+    /* border: none; */
+    color:#331C52 ;
 } 
 
-.header .contacto .btn{
-    font-size: 15px;
-}
+.header .contacto .btn:hover{
+    /* background-color: #FFFFFF; */
+    /* border: none; */
+    color:#331C52 ;
+} 
+
 
 .header .contacto a{
     font-family:"Poppins";
@@ -87,7 +102,7 @@
 }
 
 .mensaje{
-    color: #331C52;
+    /* color: #FFFFFF; */
     font-size: 15px;
     margin-right: 8px;
 }
@@ -96,7 +111,7 @@
 .header img{
     height: 430px;
     position: absolute;
-    left: 1000px;
+    left: 1010px;
     top: 5px;
 }
 
@@ -261,7 +276,7 @@ section{
 /* SECTION MIS PROYECTOS */
 
 .contenedor-proyectos{
-    padding: 50px 80px 50px 80px;
+    padding: 50px 80px 250px 80px;
 }
 
 .contenedor-proyectos h2{
@@ -279,13 +294,170 @@ section{
 }
 
 .image-proyectos div{
-    width: 125px;
-    margin-right: 100px;
-    background-color: #8e72b5;
+    padding: 2px;
+    margin-right: 10px;
+    background-color: #DCCFED;
+    border-radius: 6px;
+    align-items: center;
 }
 
-.image-proyectos div img{
-    height: 120px;
+.image-proyectos img{
+    height: 145px;
+    margin-left: 3px;
+    margin-top: 3px;
+}
+
+.image-proyectos h2{
+    color: #331C52;
+}
+
+.miestilo2{
+    color: #FFFFFF;
+}
+
+.image-proyectos div .vermas{
+    display: flex;
+    background-color: #331C52;
+    border-radius: 5px;
+    padding: 1px;
+    /* text-align: center; */
+    /* align-items: center; */
+    justify-content: center;
+    margin-bottom: 7px;
+}
+
+.image-proyectos .vermas{
+    height: 30px;
+    color: #FFFFFF;
+    text-decoration: dotted;
+}
+
+.image-proyectos .vermas a{
+    color: #FFFFFF;
+}
+
+.image-proyectos .vermas i{
+    margin-right: 8px;
+} 
+
+/* SECTION CONTACTO */
+
+.container-contacto{
+    display: flex;
+    padding: 50px 80px 50px 80px;
+    margin: 0px 10px 10px 10px;
+    background-color: #DCCFED;
+    justify-content: space-between;
+    /* border: 1px solid black; */
+
+}
+
+.container-contacto .text-checkbox h2{
+    color: #331C52;
+    font-size: 30px;
+    padding: 0 0 80px 0;
+}
+
+
+
+.container-contacto .text-checkbox p{
+    font-weight: 700;
+    color: #331C52;
+}
+
+.text-checkbox .checkbox{
+    /* border: 1px solid black; */
+    width: 500px;
+    /* display: inline; */
+}
+
+.text-checkbox .checkbox ul{
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    justify-content: initial;
+}
+
+.text-checkbox .checkbox ul li{
+    display: inline-block;
+    margin:10px 10px;
+}
+.text-checkbox .checkbox ul li label{
+    display: inline-block;
+    background-color:#DCCFED ;
+    border: 1px solid #331C52;
+    color: #331C52;
+    font-weight: 500;
+    border-radius: 5px;
+    transition: .2s all ease;
+    padding: 8px 12px;
+}
+
+.text-checkbox .checkbox ul li label:hover{}
+
+.text-checkbox .checkbox ul li input[type="checkbox"]:checked + label{
+    border: 1px solid #331C52;
+    background-color: #331C52;
+    color: #FFFFFF;
+}
+
+.text-checkbox .checkbox ul li input[type="checkbox"]{
+    opacity: 0;
+}
+
+.formulario{
+    display: flex;
+    flex-direction: column;
+}
+
+.formulario .formulario-hijo{
+    text-align: center;
+    padding: 0px 0px;
+    display: flex;
+    flex-direction: column;
+}
+
+.formulario .formulario-hijo input{
+    display: flex;
+    padding: 10px 200px 10px 5px;
+    border-radius: 5px;
+    margin-bottom: 15px;
+    border: 1px solid gray;
+}
+
+
+.formulario .formulario-hijo button{
+    padding: 10px 180px 10px 180px;
+    background-color: #331C52;
+    color: #FFFFFF;
+    border: 1px solid #331C52;
+    border-radius: 5px;
+    margin-bottom: 20px;
+}
+
+.formulario .formulario-hijo textarea{
+    border-radius: 5px;
+    padding: 10px;
+    margin-bottom: 10px;
+    text-decoration: none;
+}    
+
+.formulario .formulario-hijo button i{
+    margin-right: 10px;
+
+}
+
+.estilo{
+    color: #331C52;
+    font-size: 30px;
+    margin: 10px;
+}
+
+/* SECTION FOOTER */
+
+footer{
+    background-color: #331C52;
 }
 
 
