@@ -401,8 +401,6 @@ section{
     padding: 8px 12px;
 }
 
-.text-checkbox .checkbox ul li label:hover{}
-
 .text-checkbox .checkbox ul li input[type="checkbox"]:checked + label{
     border: 1px solid #331C52;
     background-color: #331C52;
@@ -420,7 +418,6 @@ section{
 
 .formulario .formulario-hijo{
     text-align: center;
-    /* padding: 0px 0px; */
     display: flex;
     flex-direction: column;
 }

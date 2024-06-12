@@ -1,0 +1,242 @@
+@media(max-width:320px){
+    .header{
+        text-align: center
+
+    }
+
+    .header .logo{
+        display: none;
+    }
+    .header img{
+        display: none;
+    }
+
+    .header .contacto{
+        margin: 0;
+        text-align: start;
+        padding: 0%;
+    }
+
+    .experiencia .contenedor{
+        display: flex;
+        margin: 0;
+        padding: 0;
+        justify-content: space-around;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .cont-text{
+        padding: 20px 0 0 0;
+        margin: 0;
+        text-align: center;
+    }
+
+    .about-me .me{
+        width: 250px;
+        align-items: center;
+    }
+
+    .about-me .habilidades {
+        width: 250px;
+        margin: 0;
+        padding: 0;
+        align-items: center;
+        margin: 40px 0 0 0;
+        padding: 30px 0 0 0;
+    }
+
+    .contenedor-proyectos h2{
+        width: 250px;
+        /* text-align: center; */
+        /* justify-content: center; */
+        /* align-items: center; */
+        padding: 0;
+    }
+
+    .contenedor-proyectos{
+        align-items: center;
+        /* justify-content: center; */
+        text-align: center;
+        margin: 0;
+        padding: 0;
+    }
+
+    .contenedor-proyectos{
+        padding-bottom: 100px;
+    }
+
+    .container-contacto .text-checkbox h2{
+        font-size: 20px;
+    }
+
+    .text-checkbox .checkbox{
+        width: 300px;
+    }
+
+    .text-checkbox .checkbox ul li{
+        display: flex;
+        flex-direction: row;
+        margin: 10px;
+    }
+
+    .formulario .formulario-hijo{
+        margin: 0;
+        align-items: center;
+    }
+
+    .formulario .formulario-hijo input[type="text"],
+    .formulario .formulario-hijo input[type="email"],
+    .formulario .formulario-hijo textarea{
+        width: 200px;
+        padding: 10px;
+    }
+
+    .formulario .formulario-hijo button{
+        padding: 10px 60px 10px 60px;
+        display: flex;
+    }
+
+}
+
+    
+@media(max-width:480px){
+    .experiencia .contenedor{
+       display: flex;
+       margin: 0;
+       padding: 0;
+       justify-content: space-around;
+    } 
+    .experiencia .contenedor div{
+        margin: 0;
+        text-align:left;
+    } 
+
+    .image img{
+        margin: 0%;
+    }
+    .trabajos-comp h2{
+        font-size: 45px;
+        margin-left:20px;
+    
+    }
+    .cont-text{
+        padding: 20px 0 0 0;
+        margin: 0;
+        text-align: center;
+    }
+
+}
+
+@media(max-width:768px){
+    .header .nav-links ul {
+        justify-content: center;
+    }
+
+    .header .nav-links li{
+        padding: 0;
+    }
+}
+
+@media(max-width:1024px){
+/* HEADER */
+    .header img{
+        display: none;
+    }
+
+    .header{
+        display: flex;
+        flex-direction: row;
+    }
+
+    .header .contacto{
+        margin: 0;
+    }
+
+/* ACERCA DE MI */
+    .about-me{
+        flex-direction: column;
+        margin: 0%;
+        justify-content: center;
+        padding: 0%;
+        align-items: center;
+        margin-top: 100px;
+        margin-bottom: 100px;
+    }
+
+    .habilidades{
+        margin-left:0px;
+        width: 470px;
+        justify-content: center;
+        align-items: center;
+    }
+
+/* MIS PROYECTOS */
+    .contenedor-proyectos .image-proyectos{
+        display: flex;
+        flex-flow:row wrap ;
+        /* margin: 0 0 0 0; */
+        justify-content:center;
+    }
+    
+    .contenedor-proyectos .image-proyectos div{
+    width: 250px;
+    margin-top: 15px;
+    }
+
+    .contenedor-proyectos .image-proyectos .vermas{
+        height: 30px;
+        width: 95%;
+        margin-left: 5px;
+        }
+
+/* SECTION CONTACTO */
+    .container-contacto{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .container-contacto .text-checkbox h2{
+        text-align: center;
+        padding-bottom: 20px;
+    }
+
+    .container-contacto .text-checkbox p{
+        text-align: center;
+    }
+
+    .container-contacto .checkbox{
+        padding-bottom: 20px;
+    }
+
+
+}
+
+@media(max-width:1280px){
+    .header img{
+        width: 300px;
+        left: 80px;
+    }
+}
+
+@media(max-width:1326px){
+    .header img{
+        left: 980px;
+    }
+}
+
+
+@media(min-width:1440px){
+    .header img{
+        left: 1100px;
+    }
+}
+    
+
+
+@media(min-width:1920px){
+    .header img{
+        left: 1580px;
+    }
+}
